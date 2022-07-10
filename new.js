@@ -10,6 +10,7 @@ const removeTasks = (e) => {
    toDoList.splice(index, 1);
    taskNumber.textContent = listItems.length;
    renderList();
+   taskNumber.textContent = listItems.length;
 }
 
 const renderList = () => {
